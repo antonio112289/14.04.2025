@@ -1,0 +1,218 @@
+$linksize: 14px;
+$max-width: 1000px;
+$linkweight: 600;
+$linkgap: 20px;
+$margin: auto;
+$position: relative;
+$btncolor: rgba(35, 166, 240, 1);
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 3000px;
+    padding: 0;
+    margin: 0;
+}
+
+.sec1 {
+    width: 100%;
+    height: 767px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("./hero-cover.5.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .head {
+        display: flex;
+        margin: $margin;
+        max-width: $max-width;
+
+        .h3 {
+            h3 {
+                font-size: 24px;
+                color: white;
+            }
+        }
+    }
+
+    .main {
+        display: flex;
+        flex-direction: row;
+        gap: 400px;
+        position: relative;
+        left: 40px;
+        max-width: $max-width;
+        margin: $margin;
+
+        button {
+            width: 190px;
+            height: 52px;
+            background-color: rgba(35, 166, 240, 1);
+            font-size: 14px;
+            font-weight: 600;
+            color: white;
+            border: 0px;
+            border-radius: 5px;
+        }
+
+        .links {
+            align-items: center;
+            display: flex;
+            gap: 20px;
+
+            a {
+                text-decoration: none;
+                font-weight: $linkweight;
+                font-size: $linksize;
+                color: white;
+            }
+        }
+    }
+
+    .h1 {
+        gap: 30px;
+        position: $position;
+        left: -88px;
+        display: flex;
+        flex-direction: column;
+        margin: $margin;
+        max-width: $max-width;
+
+        p {
+            width: 306px;
+            font-size: 20px;
+            color: white;
+        }
+    }
+
+    h1 {
+        font-size: 58px;
+        width: 509px;
+        color: white;
+
+    }
+
+    .buttons {
+        button {
+            width: 185px;
+            height: 52px;
+            font-size: 14px;
+            background-color: $btncolor;
+            border: 0;
+            border-radius: 35px;
+            color: white;
+            font-weight: 600;
+        }
+
+        button:last-child {
+            background-color: transparent;
+            font-size: 14px;
+            color: white;
+            border: 1px rgba(255, 255, 255, 1) solid;
+            border-radius: 35px;
+        }
+
+    }
+}
+
+.maiin {
+    position: $position;
+    top: 30px;
+    max-width: $max-width;
+    margin: $margin;
+    display: flex;
+    flex-direction: row;
+}
+
+.sec2 {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    height: 828px;
+
+    .text-area {
+        display: flex;
+        position: relative;
+        top: 50px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+            font-size: 40px;
+        }
+
+        p {
+            position: relative;
+            top: -50px;
+            color: rgba(115, 115, 115, 1);
+            text-align: center;
+            padding: 15px 25px;
+            font-size: 14px;
+            width: 400px;
+        }
+    }
+
+    .big {
+        width: 1046px;
+        height: 385px;
+        display: flex;
+        margin: $margin;
+        max-width: $max-width;
+
+        .three {
+            display: flex;
+            flex-direction: row;
+            position: relative;
+            justify-content: center;
+            align-items: end;
+            gap: 25px;
+
+            div {
+                border-radius: 5px;
+                border: 1px solid rgba(142, 194, 242, 1);
+                width: 328px;
+                height: 253px;
+                background-color: rgba(255, 255, 255, 1);
+
+                .head {
+                    width: 329px;
+                    height: 132px;
+                    position: relative;
+                    top: -132px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-top-left-radius: 15px;
+                    border-top-right-radius: 15px;
+                    background-color: rgba(142, 194, 242, 1);
+
+                    h5{
+                        color: white;
+                        font-size: 19px;
+                        text-align: center;
+                    }
+
+                }
+
+                ul {
+                    position: relative;
+                    top: -100px;
+                    font-size: 14px;
+                    color: rgba(115, 115, 115, 1);
+                }
+
+                a {
+                    position: relative;
+                    top: -90px;
+                    left: 40px;
+                    text-decoration: none;
+                    font-weight: 600;
+                    color: rgba(35, 166, 240, 1);
+                }
+
+            }
+
+        }
+    }
+}
