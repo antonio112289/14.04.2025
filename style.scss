@@ -250,3 +250,41 @@ body {
         top: 100px;
     }
 }
+.sec4{
+    
+    height: 920px;
+    background-color: rgba(250, 250, 250, 1);
+    
+}
+.sec4{
+    
+    .jj{
+        position: relative;
+        top: 80px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    h2{
+        font-size: 40px;
+        color: rgba(37, 43, 66, 1);
+    }
+    p{
+        font-size: 14px;
+        width: 400px;
+        position: relative;
+        top: -30px;
+        color: rgba(115, 115, 115, 1);
+    }
+    .photomain{
+        position: relative;
+        top: 90px;
+        display: flex;
+        max-width: $max-width;
+        margin: $margin;
+        gap: 20px;
+        
+    }
+}
